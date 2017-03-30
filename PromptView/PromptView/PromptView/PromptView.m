@@ -37,6 +37,7 @@
     [self.contentView addSubview:self.imageView];
     
     self.textView = [[UITextView alloc] init];
+    self.textView.userInteractionEnabled = NO;
     [self.textView setTextColor:[UIColor colorWithWhite:106/255.0 alpha:1]];
     [self.textView setTextAlignment:NSTextAlignmentCenter];
     self.textView.font = [UIFont systemFontOfSize:20];
